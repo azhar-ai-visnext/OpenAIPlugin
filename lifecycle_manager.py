@@ -108,7 +108,7 @@ class OpenAILifecycleManager(BaseLifecycleManager):
             "official": False,
             "author": "YourName",
             "compatibility": "1.0.0",
-            "scope": "OpenAIPlugin",
+            "scope": "openAIPlugin",
             "bundle_method": "webpack",
             "bundle_location": "dist/remoteEntry.js",
             "is_local": False,
