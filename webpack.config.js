@@ -12,7 +12,7 @@ module.exports = {
     clean: true,
     library: {
       type: 'var',
-      name: 'OpenAIPlugin'
+      name: 'openAIPlugin'
     }
   },
   resolve: {
@@ -37,8 +37,8 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "OpenAIPlugin",
-      library: { type: "var", name: "OpenAIPlugin" },
+      name: "openAIPlugin",
+      library: { type: "var", name: "openAIPlugin" },
       filename: "remoteEntry.js",
       exposes: {
         "./ComponentOpenAIStatus": "./src/ComponentOpenAIStatus",
